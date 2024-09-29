@@ -1,0 +1,160 @@
+
+
+
+body {
+    margin: 0;
+
+}
+
+
+.banner {
+    background-color: #70077E;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    border: 5px solid #ffffff; 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); 
+}
+h2 {
+    text-align: center;
+    margin-top: 10px;
+}
+h5{
+    text-align: center;
+}
+.logo-container {
+    flex-grow: 1;
+}
+
+.logo {
+    width: 60px; 
+    height: auto;
+}
+
+.card-body,a{
+    width: 100%;
+}
+
+
+
+ #produits {
+    margin: 20px;
+
+}
+
+.produit img {
+    max-width: 100%;
+    height: auto;
+}
+
+button {
+    width: 100%;
+    border: none;
+    cursor: pointer;
+}
+footer {
+    background-color: #70077E;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border: 5px solid #ffffff;
+    margin-top: 21.5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Styles pour le Panier Modal */
+/* .modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 600px;
+    position: relative;
+}
+
+.close {
+    color: #aaa;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+}
+
+#panier-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+#panier-table th, #panier-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+#panier-table th {
+    background-color: #f2f2f2;
+}
+
+button#checkout-btn {
+    background-color: #0275d8;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button#checkout-btn:hover {
+    background-color: #025aa5;
+} */
+
+/* Footer */
+
