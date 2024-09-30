@@ -1,0 +1,87 @@
+{
+    "projects":[
+        {
+            "text": "Pour ce projet j'ai créé un algorithme qui permet de maximiser les profits d'un client au bout de deux ans. J'ai utilisé le module IterTools pour réaliser cet algorithme.",
+            "image": "images/capture_algo.png",
+            "link": "https://github.com/Antho78780/Resolvez-des-problemes-en-utilisant-des-algorithmes-en-Python"
+        },
+        {
+            "text": "J'ai utilisé Django Rest-Framework pour créer une API Restful sécurisé. Django REST framework est une boîte à outils puissante et flexible pour créer des API web.",
+            "image": "images/capture_rest-framework.png",
+            "link": "https://github.com/Antho78780/Creez-une-API-securiser-RESTful-en-utilisant-Django-REST"
+        },
+        {
+            "text": "Ce projet consiste à créer un site web en Django. Sur le site web l'utilisateur doit avoir un compte pour accéder au site une fois connecter il peut créer des critiques, demander des critiques et s'abonner à d'autres utilisateurs.",
+            "image": "images/Capture_django.png",
+            "link": "https://github.com/Antho78780/Developpez-une-application-Web-en-utilisant-Django"
+        },
+        {
+            "text": "Ce projet consiste à utiliser DJANGO-ORM pour développer une architecture BACK-END sécurisé. L'ORM de django signifie mapping d'objet relationnel.",
+            "image": "images/capture_djangoRest.png",
+            "link": "https://github.com/Antho78780/Developpez-une-architecture-back-end-s-curis-e-en-utilisant-Django-ORM"
+        },
+        {
+            "text": "Ce projet consiste à gérer un tournoi d'échec uniquement dans un terminal, il a été réaliser uniquement en python.",
+            "image": "images/capture_tournois.png",
+            "link": "https://github.com/Antho78780/Developpez-un-programme-logiciel-en-Python"
+        },
+        {
+            "text": "Mon tout premier projet qui consiste à mettre en oeuvre un site web d'hébergement uniquement en HTML et CSS.",
+            "image": "images/capture_hebergement.png",
+            "link": "https://github.com/Antho78780/Transformez-une-maquette-en-site-web-avec-html-et-css"
+        },
+        {
+            "text": "Mon tout premier projet en javascript qui consiste à créer le BACK-END et le FRONT-END d'un site web E-commerce. L'utilisateur peut mettre des articles dans son panier pour ensuite les acheter.",
+            "image": "images/capture_e-commerce.png",
+            "link": "https://github.com/Antho78780/Construisez-un-site-e-commerce-en-JavaScript"
+        },
+        {
+            "text": "J'ai créer un script qui permet de récupérer toutes les informations de tous les livres de chaque catégorie et de chaque page sur https://books.toscrape.com/ Il permet également de télécharger toutes les images de chaque livre.",
+            "image": "images/capture_script-book.png",
+            "link": "https://github.com/Antho78780/ScriptBook"
+        },
+        {
+            "text": "Pour ce projet j'ai utilisé Django, j'ai utilisé SENTRY pour vérifier que mon code n'avait pas d'erreur, j'ai aussi utilisé Render pour le déploiement du site web et Circleci pour la suite logique de mes tests.",
+            "image": "images/capture_modulaire.png",
+            "link": "https://github.com/Antho78780/Python-OC-Lettings-FR"
+        }
+    ],
+    "languages":[
+        {
+            "image": "images/html-5.png",
+            "text": "HTML"
+        },
+        {
+            "image": "images/css-3.png",
+            "text": "CSS"
+        },
+        {
+            "image": "images/javascript.png",
+            "text": "Javascript"
+        },
+        {
+            "image": "images/python.png",
+            "text": "Python"
+        },
+        {
+            "image": "images/react.png",
+            "text": "React"
+        },
+        {
+            "image": "images/sql.png",
+            "text": "SQL"
+        },
+        {
+            "image": "images/vue.png",
+            "text": "Vue"
+        },
+        {
+            "image": "images/django.png",
+            "text": "Django"
+        },
+        {
+            "image": "images/node.png",
+            "text": "Node"
+        }
+    ]
+}
