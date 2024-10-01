@@ -1,0 +1,67 @@
+{
+    "products":[
+        {
+          "id": "1",
+          "name": "produit1",
+          "prix": "20€",
+          "quantité": "10",
+          "img": "./images/ps_sc61168_white-red.jpg"
+       },
+       {
+          "id": "2", 
+          "name": "produit2",
+          "prix": "50€",
+          "quantité": "10",
+          "img": "./images/ps_sc61168_white-red.jpg"
+       },
+       {
+          "id": "3", 
+          "name": "produit3",
+          "prix": "60€",
+          "quantité": "10",
+          "img": "./images/ps_sc61168_white-red.jpg"
+       },
+       {
+          "id": "4", 
+          "name": "produit4",
+          "prix": "50€",
+          "quantité": "10",
+          "img": "./images/ps_sc61168_white-red.jpg"
+       },
+       {
+          "id": "5", 
+          "name": "produit5",
+          "prix": "30€",
+          "quantité": "10",
+          "img": "./images/ps_sc61168_white-red.jpg"
+     },
+     {
+          "id": "6", 
+          "name": "produit6",
+          "prix": "110€",
+          "quantité": "10",
+          "img": "./images/ps_sc61168_white-red.jpg"
+     },
+     {
+          "id": "7", 
+          "name": "produit7",
+          "prix": "30€",
+          "quantité": "10",
+          "img": "./images/ps_sc61168_white-red.jpg"
+     },
+     {
+          "id": "8", 
+          "name": "produit8",
+          "prix": "20€",
+          "quantité": "10",
+          "img": "./images/ps_sc61168_white-red.jpg"
+     },
+     {
+          "id": "9", 
+          "name": "produit9",
+          "prix": "57€",
+          "quantité": "10",
+          "img": "./images/ps_sc61168_white-red.jpg"
+     }
+    ]
+}

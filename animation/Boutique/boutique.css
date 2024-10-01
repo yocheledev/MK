@@ -1,11 +1,32 @@
-
-
-
+.logo {
+    width: 50px;
+}
+.navbar{
+    background-image: linear-gradient(rgb(49, 0, 49), purple);
+    height: 100px;
+}
+.block-img{
+    margin-top: 20px;
+}
+.card{
+    margin: 10px;
+}
+footer{
+    width: 100%;
+    height: 100px;
+    background-image: linear-gradient(purple, rgb(49, 0, 49));
+}
+.text-footer {
+    color: white;
+}
+/* 
+nav {
+    background-color: #70077E;
+}
 body {
     margin: 0;
 
 }
-
 
 .banner {
     background-color: #70077E;
@@ -61,7 +82,7 @@ footer {
     margin-top: 21.5%;
 }
 
-
+ */
 
 
 

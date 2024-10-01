@@ -1,4 +1,15 @@
 // // script.js
+// const recupProducts = document.getElementById("produits")
+// fetch("products.json")
+// .then(response => response.json())
+// .then(data => {
+//     for (let i = 0; i <data["products"].length;i++){
+//         console.log(i)
+//         recupProducts.innerHTML += `<div class="produit"><div class="card" style="width: 18rem;"><img src="../2.jpg" class="card-img-top" alt="...">
+//         <div class="card-body"><h5 class="card-title">${data["products"][i]["name"]}</h5><button class="ajouter-panier btn btn-primary"data-id="1"data-nom="Produit 1" data-prix="20">Ajouter au Panier</button>
+//         </div></div></div>`
+//     }
+// })
 
 // // Récupérer les éléments du DOM
 // const ajouterPanierButtons = document.querySelectorAll('.ajouter-panier');
