@@ -15,19 +15,21 @@
 				<div class="logo-container">
 					<img src="../logo.png" alt="Logo" class="logo">
 				</div>
-				<button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions">Panier</button>
+				<button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions">Panier(<span id="addNumber"></span>)</button>
 				<div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
 					<div class="offcanvas-header">
 						<h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel"><i class="fas fa-shopping-cart"></i></h5>
 							<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
 					</div>
-					<div class="offcanvas-body addPanier">
+					<div class="offcanvas-body panier">
 					</div>
+                    <div class="container-price">
+                    </div>
 				</div>
 			</div>
 		</nav>
 		<div class="container text-center block-img">
-			<div class="row row-cols-2 row-cols-lg-4 g-2 g-lg-3" id="produit">
+			<div class="row row-cols-2 row-cols-lg-4 g-2 g-lg-3 products">
 			</div>
 		</div>
         <div class="background-footer">
