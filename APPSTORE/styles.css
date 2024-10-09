@@ -1,0 +1,19 @@
+
+img{
+    size: cover;
+}
+
+footer{
+    background-color: black;
+}
+.barre{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+}
+.menu{
+    color: white;
+}
+.btn{
+    margin:20px;
+}
