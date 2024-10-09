@@ -6,35 +6,54 @@
         <title>Ma Boutique en Ligne</title>
         <link rel="stylesheet" href="boutique.css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/1a7b1ecd7e.js" crossorigin="anonymous"></script>
     </head>
     <body>
-        <!-- Bannière avec le logo -->
-        <header class="banner">
-            <div class="logo-container">
-                <img src="../logo.png" alt="Logo" class="logo"> <!-- Assurez-vous de remplacer logo.png par le bon chemin de l'image -->
+		<nav class="navbar">
+			<div class="container-fluid">
+				<div class="logo-container">
+					<img src="../logo.png" alt="Logo" class="logo">
+				</div>
+				<button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions">Panier(<span id="addNumber"></span>)</button>
+				<div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+					<div class="offcanvas-header">
+						<h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel"><i class="fas fa-shopping-cart"></i></h5>
+							<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+					</div>
+					<div class="offcanvas-body panier">
+					</div>
+                    <div class="container-price">
+                    </div>
+				</div>
+			</div>
+		</nav>
+		<div class="container text-center block-img">
+			<div class="row row-cols-2 row-cols-lg-4 g-2 g-lg-3 products">
+			</div>
+		</div>
+        <div class="background-footer">
+            <div class="container">
+                <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+                        <div class="col-md-4 d-flex align-items-center" bis_skin_checked="1">
+                            <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+                            <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+                            </a>
+                            <span class="mb-3 mb-md-0 text-footer">2024 Ma Boutique. Tous droits réservés.</span>
+                        </div>
+                        <ul class="nav">
+                            <li class="ms-3"><a class="text-body-secondary" href="#"><i class="fa-brands fa-tiktok"></i></a></li>
+                            <li class="ms-3"><a class="text-body-secondary" href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                            <li class="ms-3"><a class="text-body-secondary" href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                        </ul>
+                </footer>
             </div>
-            <nav>
-                <a href="#" id="panier-btn" class="btn btn-primary">Panier (<span id="panier-count">0</span>)</a>
-            </nav>
-        </header>
-        <h2>Nos Produits</h2>
-        <section id="produits">
-            <div class="produit">
-                <div class="card" style="width: 18rem;">
-                    <img src="../2.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">T-shirt </h5>
-                <button class="ajouter-panier btn btn-primary"data-id="1"data-nom="Produit 1" data-prix="20">Ajouter au Panier</button>
-                </div>
-                </div> 
-            </div> 
-        </section>   
-        <footer>
-            <p>&copy; 2024 Ma Boutique. Tous droits réservés.</p>
-        </footer>
-        <script src="/Script/Script.js"></script>
+        </div>
     </body>
+	 <script language="JavaScript" type="text/javascript" src="script.js"></script>
 </html>
+
+
 
 <!-- <section id="produits">
     <div class="produit">
@@ -80,3 +99,37 @@
             <button id="checkout-btn">Passer à la Commande</button>
         </div>
 </div> -->
+ <!-- <section id="produits">
+            <div class="produit">
+                <div class="card" style="width: 18rem;">
+                    <img src="../2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Produit 1</h5>
+                        <button class="ajouter-panier btn btn-primary"data-id="1"data-nom="Produit 1" data-prix="20">Ajouter au Panier</button>
+                    </div>
+                </div> 
+            </div> 
+</section> -->
+
+<!-- Bannière avec le logo -->
+        <!-- <nav>
+                <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Panier</button>
+                <div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+                    <div class="offcanvas-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                    </div>
+                </div>
+                <a href="#" id="panier-btn" class="btn btn-primary">Panier (<span id="panier-count">0</span>)</a>
+            </nav> -->
+            <!-- Assurez-vous de remplacer logo.png par le bon chemin de l'image -->
+             <!-- Assurez-vous de remplacer logo.png par le bon chemin de l'image -->
+        <!-- <header class="banner">
+            <div class="logo-container">
+                <img src="../logo.png" alt="Logo" class="logo">
+            </div>
+        </header> -->
+<!-- <footer>
+            <p>&copy; 2024 Ma Boutique. Tous droits réservés.</p>
+        </footer> -->

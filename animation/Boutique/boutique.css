@@ -1,11 +1,40 @@
+.logo {
+    width: 50px;
+}
+.navbar{
+    background-image: linear-gradient(rgb(49, 0, 49), purple);
+    height: 100px;
+}
+.block-img{
+    margin-top: 20px;
+}
+.card{
+    margin: 10px;
+}
+.text-footer {
+    color: black;
+}
 
-
-
+i{
+    font-size: 30px;
+}
+.fa-facebook{
+    color: rgb(30, 48, 90)
+}
+.fa-instagram{
+    color: rgb(30, 48, 80);
+}
+.fa-tiktok{
+    color: rgb(30, 48, 80);
+}
+/* 
+nav {
+    background-color: #70077E;
+}
 body {
     margin: 0;
 
 }
-
 
 .banner {
     background-image: url(../Images/logobt.png);
@@ -66,7 +95,7 @@ footer {
     margin-top: 21.5%;
 }
 
-
+ */
 
 
 
