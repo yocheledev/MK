@@ -1,3 +1,0 @@
-# MK
-MK corp
-test
